@@ -1,0 +1,1 @@
+# resize-image-compatible-mobile
