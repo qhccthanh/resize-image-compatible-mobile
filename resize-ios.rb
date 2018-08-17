@@ -31,4 +31,8 @@ Dir.glob('*').select { |f|
     end
 }
 
+excute_optimize = "pngquant/pngquant -f --skip-if-larger --ext .png 256 resized/*.png"
+puts excute_optimize
+system(excute_optimize)
+
 puts "Done"
